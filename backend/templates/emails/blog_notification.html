@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
+    <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px;">
+        <h2 style="color: #007bff; margin-top: 0;">New Blog Post: {{ blog_post.title }}</h2>
+        
+        <p><strong>By:</strong> {{ author_name }}</p>
+        
+        <div style="background-color: white; padding: 15px; border-radius: 5px; margin: 15px 0;">
+            <p><strong>Preview:</strong></p>
+            <p>{{ excerpt }}</p>
+        </div>
+        
+        <p style="margin: 20px 0;">
+            <a href="{{ url }}" 
+               style="background-color: #007bff; 
+                      color: white; 
+                      padding: 10px 20px; 
+                      text-decoration: none; 
+                      border-radius: 5px;
+                      display: inline-block;">
+                Read Full Post
+            </a>
+        </p>
+        
+        <hr style="border: 1px solid #dee2e6; margin: 20px 0;">
+        
+        <p style="color: #6c757d; font-size: 0.9em;">
+            You're receiving this because you subscribed to blog notifications.
+            <br>
+            <a href="{{ unsubscribe_url }}" style="color: #6c757d;">Unsubscribe</a>
+        </p>
+    </div>
+</body>
+</html>

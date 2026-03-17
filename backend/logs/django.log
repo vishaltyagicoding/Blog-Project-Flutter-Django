@@ -1,0 +1,574 @@
+INFO 2026-03-14 22:33:04,832 autoreload Watching for file changes with StatReloader
+INFO 2026-03-14 22:33:09,266 middleware GET / - Status: 404 - Duration: 0.31s - User: Anonymous
+WARNING 2026-03-14 22:33:09,270 log Not Found: /
+INFO 2026-03-14 22:33:09,456 middleware GET /favicon.ico - Status: 404 - Duration: 0.01s - User: Anonymous
+WARNING 2026-03-14 22:33:09,464 log Not Found: /favicon.ico
+INFO 2026-03-14 22:33:19,353 middleware GET /login - Status: 404 - Duration: 0.00s - User: Anonymous
+WARNING 2026-03-14 22:33:19,353 log Not Found: /login
+INFO 2026-03-14 22:33:35,299 middleware GET /api/auth/login/ - Status: 405 - Duration: 0.35s - User: Anonymous
+WARNING 2026-03-14 22:33:35,299 log Method Not Allowed: /api/auth/login/
+INFO 2026-03-14 22:33:53,850 middleware GET /api/auth/logout/ - Status: 401 - Duration: 0.01s - User: Anonymous
+WARNING 2026-03-14 22:33:53,850 log Unauthorized: /api/auth/logout/
+INFO 2026-03-14 22:35:35,853 middleware GET /api/auth/login/ - Status: 405 - Duration: 0.01s - User: Anonymous
+WARNING 2026-03-14 22:35:35,853 log Method Not Allowed: /api/auth/login/
+INFO 2026-03-14 22:35:41,624 middleware POST /api/auth/login/ - Status: 401 - Duration: 0.95s - User: Anonymous
+WARNING 2026-03-14 22:35:41,624 log Unauthorized: /api/auth/login/
+INFO 2026-03-14 22:35:55,197 middleware GET /api/auth/register/ - Status: 405 - Duration: 0.04s - User: Anonymous
+WARNING 2026-03-14 22:35:55,197 log Method Not Allowed: /api/auth/register/
+INFO 2026-03-14 22:37:00,116 middleware POST /api/auth/register/ - Status: 400 - Duration: 0.14s - User: Anonymous
+WARNING 2026-03-14 22:37:00,116 log Bad Request: /api/auth/register/
+INFO 2026-03-14 22:37:18,882 middleware POST /api/auth/register/ - Status: 201 - Duration: 1.08s - User: Anonymous
+INFO 2026-03-14 22:37:45,759 middleware OPTIONS /api/auth/register/ - Status: 200 - Duration: 0.01s - User: Anonymous
+INFO 2026-03-14 22:38:23,382 middleware OPTIONS /api/auth/register/ - Status: 200 - Duration: 0.01s - User: Anonymous
+INFO 2026-03-14 22:38:24,282 middleware OPTIONS /api/auth/register/ - Status: 200 - Duration: 0.01s - User: Anonymous
+INFO 2026-03-14 22:39:02,188 middleware GET /api/auth/login/ - Status: 405 - Duration: 0.01s - User: Anonymous
+WARNING 2026-03-14 22:39:02,188 log Method Not Allowed: /api/auth/login/
+INFO 2026-03-14 22:39:13,742 middleware POST /api/auth/login/ - Status: 200 - Duration: 0.97s - User: Anonymous
+INFO 2026-03-14 22:39:56,786 middleware GET /api/auth/profile/ - Status: 401 - Duration: 0.01s - User: Anonymous
+WARNING 2026-03-14 22:39:56,786 log Unauthorized: /api/auth/profile/
+INFO 2026-03-14 22:42:31,451 middleware GET /api/auth/login/ - Status: 405 - Duration: 0.01s - User: Anonymous
+WARNING 2026-03-14 22:42:31,451 log Method Not Allowed: /api/auth/login/
+INFO 2026-03-14 22:42:52,631 middleware POST /api/auth/login/ - Status: 200 - Duration: 0.98s - User: Anonymous
+INFO 2026-03-14 22:43:15,648 middleware POST /api/auth/profile/ - Status: 405 - Duration: 0.07s - User: alberttyagi123@gmail.com
+WARNING 2026-03-14 22:43:15,664 log Method Not Allowed: /api/auth/profile/
+INFO 2026-03-14 22:43:59,112 middleware POST /api/auth/profile/ - Status: 405 - Duration: 0.09s - User: alberttyagi123@gmail.com
+WARNING 2026-03-14 22:43:59,112 log Method Not Allowed: /api/auth/profile/
+INFO 2026-03-14 22:44:12,708 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.23s - User: alberttyagi123@gmail.com
+INFO 2026-03-14 22:44:32,272 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.08s - User: alberttyagi123@gmail.com
+INFO 2026-03-14 22:44:38,530 middleware POST /api/auth/profile/ - Status: 405 - Duration: 0.08s - User: alberttyagi123@gmail.com
+WARNING 2026-03-14 22:44:38,531 log Method Not Allowed: /api/auth/profile/
+INFO 2026-03-14 22:44:44,533 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.08s - User: alberttyagi123@gmail.com
+INFO 2026-03-14 22:45:08,502 middleware GET /api/auth/profile/ - Status: 401 - Duration: 0.00s - User: Anonymous
+WARNING 2026-03-14 22:45:08,502 log Unauthorized: /api/auth/profile/
+INFO 2026-03-14 22:45:16,667 middleware GET /api/auth/profile/ - Status: 401 - Duration: 0.00s - User: Anonymous
+WARNING 2026-03-14 22:45:16,668 log Unauthorized: /api/auth/profile/
+INFO 2026-03-14 22:47:58,562 middleware GET /api/auth/change-password/ - Status: 401 - Duration: 0.00s - User: Anonymous
+WARNING 2026-03-14 22:47:58,562 log Unauthorized: /api/auth/change-password/
+INFO 2026-03-14 22:52:13,277 middleware GET /api/auth/change-password/ - Status: 401 - Duration: 0.00s - User: Anonymous
+WARNING 2026-03-14 22:52:13,277 log Unauthorized: /api/auth/change-password/
+INFO 2026-03-14 22:52:25,156 middleware GET /api/auth/change-password/ - Status: 405 - Duration: 0.08s - User: alberttyagi123@gmail.com
+WARNING 2026-03-14 22:52:25,156 log Method Not Allowed: /api/auth/change-password/
+INFO 2026-03-14 22:52:34,977 middleware POST /api/auth/change-password/ - Status: 400 - Duration: 0.09s - User: alberttyagi123@gmail.com
+WARNING 2026-03-14 22:52:34,977 log Bad Request: /api/auth/change-password/
+INFO 2026-03-14 22:54:33,428 middleware POST /api/auth/change-password/ - Status: 200 - Duration: 1.95s - User: alberttyagi123@gmail.com
+INFO 2026-03-14 22:54:59,132 middleware POST /api/auth/change-password/ - Status: 400 - Duration: 1.03s - User: alberttyagi123@gmail.com
+WARNING 2026-03-14 22:54:59,132 log Bad Request: /api/auth/change-password/
+INFO 2026-03-14 22:55:35,430 middleware POST /api/auth/change-password/ - Status: 200 - Duration: 2.14s - User: alberttyagi123@gmail.com
+INFO 2026-03-14 22:56:06,271 middleware GET /api/auth/token/refresh// - Status: 404 - Duration: 0.01s - User: Anonymous
+WARNING 2026-03-14 22:56:06,271 log Not Found: /api/auth/token/refresh//
+INFO 2026-03-14 22:56:10,748 middleware GET /api/auth/token/refresh/ - Status: 405 - Duration: 0.01s - User: Anonymous
+WARNING 2026-03-14 22:56:10,748 log Method Not Allowed: /api/auth/token/refresh/
+INFO 2026-03-14 22:56:31,949 middleware POST /api/auth/token/refresh/ - Status: 401 - Duration: 0.02s - User: Anonymous
+WARNING 2026-03-14 22:56:31,950 log Unauthorized: /api/auth/token/refresh/
+INFO 2026-03-14 22:57:35,814 middleware GET /api/auth/login/ - Status: 405 - Duration: 0.02s - User: Anonymous
+WARNING 2026-03-14 22:57:35,814 log Method Not Allowed: /api/auth/login/
+INFO 2026-03-14 22:58:12,482 middleware POST /api/auth/login/ - Status: 400 - Duration: 0.02s - User: Anonymous
+WARNING 2026-03-14 22:58:12,482 log Bad Request: /api/auth/login/
+INFO 2026-03-14 22:58:36,059 middleware POST /api/auth/login/ - Status: 200 - Duration: 0.94s - User: Anonymous
+INFO 2026-03-14 22:58:49,362 middleware POST /api/auth/token/refresh/ - Status: 200 - Duration: 0.10s - User: Anonymous
+INFO 2026-03-14 23:00:19,348 middleware GET /admin/ - Status: 302 - Duration: 0.01s - User: Anonymous
+INFO 2026-03-14 23:00:19,534 middleware GET /admin/login/ - Status: 200 - Duration: 0.18s - User: Anonymous
+INFO 2026-03-14 23:00:53,974 middleware POST /admin/login/ - Status: 200 - Duration: 0.93s - User: Anonymous
+INFO 2026-03-14 23:01:31,934 middleware POST /admin/login/ - Status: 200 - Duration: 0.96s - User: Anonymous
+INFO 2026-03-14 23:03:58,836 autoreload Watching for file changes with StatReloader
+INFO 2026-03-14 23:04:34,955 middleware POST /admin/login/ - Status: 200 - Duration: 1.13s - User: Anonymous
+INFO 2026-03-14 23:04:51,033 middleware POST /admin/login/ - Status: 302 - Duration: 0.96s - User: python@visha.com
+INFO 2026-03-14 23:04:51,196 middleware GET /admin/ - Status: 200 - Duration: 0.15s - User: python@visha.com
+INFO 2026-03-14 23:04:58,017 middleware GET /admin/token_blacklist/blacklistedtoken/ - Status: 200 - Duration: 0.25s - User: python@visha.com
+INFO 2026-03-14 23:04:58,278 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.18s - User: python@visha.com
+INFO 2026-03-14 23:05:08,850 middleware GET /admin/token_blacklist/outstandingtoken/ - Status: 200 - Duration: 0.22s - User: python@visha.com
+INFO 2026-03-14 23:05:13,222 middleware GET /admin/accounts/customuser/ - Status: 200 - Duration: 0.13s - User: python@visha.com
+INFO 2026-03-14 23:05:13,407 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.12s - User: python@visha.com
+INFO 2026-03-14 23:05:30,734 middleware GET /admin/auth/group/ - Status: 200 - Duration: 0.12s - User: python@visha.com
+INFO 2026-03-14 23:05:30,868 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.09s - User: python@visha.com
+INFO 2026-03-14 23:05:33,518 middleware GET /admin/accounts/customuser/ - Status: 200 - Duration: 0.10s - User: python@visha.com
+INFO 2026-03-14 23:05:36,927 middleware GET /admin/accounts/customuser/2/change/ - Status: 200 - Duration: 0.29s - User: python@visha.com
+INFO 2026-03-14 23:05:37,084 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.10s - User: python@visha.com
+INFO 2026-03-14 23:05:40,065 middleware GET /admin/accounts/customuser/ - Status: 200 - Duration: 0.10s - User: python@visha.com
+INFO 2026-03-14 23:05:45,072 middleware GET /admin/accounts/customuser/1/change/ - Status: 200 - Duration: 0.17s - User: python@visha.com
+INFO 2026-03-14 23:05:45,222 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.09s - User: python@visha.com
+INFO 2026-03-14 23:06:19,741 middleware POST /admin/accounts/customuser/1/change/ - Status: 302 - Duration: 0.37s - User: python@visha.com
+INFO 2026-03-14 23:06:19,851 middleware GET /admin/accounts/customuser/ - Status: 200 - Duration: 0.10s - User: python@visha.com
+INFO 2026-03-14 23:06:20,012 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.09s - User: python@visha.com
+INFO 2026-03-14 23:07:32,722 autoreload D:\practice\backend\config\urls.py changed, reloading.
+INFO 2026-03-14 23:07:34,759 autoreload Watching for file changes with StatReloader
+INFO 2026-03-14 23:07:37,379 middleware GET /admin/accounts/customuser/1/change/ - Status: 200 - Duration: 0.22s - User: python@visha.com
+INFO 2026-03-14 23:07:38,335 middleware GET /admin/accounts/customuser/ - Status: 200 - Duration: 0.13s - User: python@visha.com
+INFO 2026-03-14 23:07:39,137 middleware GET /admin/token_blacklist/outstandingtoken/ - Status: 200 - Duration: 0.10s - User: python@visha.com
+INFO 2026-03-14 23:07:41,768 middleware POST /admin/logout/ - Status: 200 - Duration: 0.13s - User: Anonymous
+INFO 2026-03-14 23:07:43,556 middleware GET /admin/ - Status: 302 - Duration: 0.00s - User: Anonymous
+INFO 2026-03-14 23:07:43,581 middleware GET /admin/login/ - Status: 200 - Duration: 0.02s - User: Anonymous
+INFO 2026-03-14 23:09:37,106 autoreload D:\practice\backend\config\urls.py changed, reloading.
+INFO 2026-03-14 23:09:39,235 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 12:53:43,497 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 12:53:52,060 middleware GET / - Status: 404 - Duration: 0.33s - User: Anonymous
+WARNING 2026-03-15 12:53:52,076 log Not Found: /
+INFO 2026-03-15 12:53:52,256 middleware GET /favicon.ico - Status: 404 - Duration: 0.01s - User: Anonymous
+WARNING 2026-03-15 12:53:52,256 log Not Found: /favicon.ico
+INFO 2026-03-15 12:54:04,616 middleware GET /api/blogs - Status: 404 - Duration: 0.01s - User: Anonymous
+INFO 2026-03-15 12:54:04,777 middleware GET /api/blogs/ - Status: 401 - Duration: 0.15s - User: Anonymous
+WARNING 2026-03-15 12:54:04,780 log Unauthorized: /api/blogs/
+INFO 2026-03-15 12:58:40,143 middleware GET /admin/ - Status: 302 - Duration: 0.04s - User: Anonymous
+INFO 2026-03-15 12:58:40,409 middleware GET /admin/login/ - Status: 200 - Duration: 0.27s - User: Anonymous
+INFO 2026-03-15 12:58:43,424 middleware POST /admin/login/ - Status: 302 - Duration: 1.00s - User: python@visha.com
+INFO 2026-03-15 12:58:43,614 middleware GET /admin/ - Status: 200 - Duration: 0.17s - User: python@visha.com
+INFO 2026-03-15 13:00:56,621 middleware GET /admin/blogs/blogpost/ - Status: 200 - Duration: 0.24s - User: python@visha.com
+INFO 2026-03-15 13:00:56,838 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.15s - User: python@visha.com
+INFO 2026-03-15 13:01:00,262 middleware GET /admin/blogs/blogpost/add/ - Status: 200 - Duration: 0.30s - User: python@visha.com
+INFO 2026-03-15 13:01:00,473 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.14s - User: python@visha.com
+INFO 2026-03-15 13:04:32,516 middleware GET /api/auth/login - Status: 404 - Duration: 0.03s - User: python@visha.com
+INFO 2026-03-15 13:04:32,675 middleware GET /api/auth/login/ - Status: 405 - Duration: 0.15s - User: Anonymous
+WARNING 2026-03-15 13:04:32,675 log Method Not Allowed: /api/auth/login/
+INFO 2026-03-15 13:05:40,883 middleware POST /api/auth/login/ - Status: 400 - Duration: 0.02s - User: Anonymous
+WARNING 2026-03-15 13:05:40,883 log Bad Request: /api/auth/login/
+INFO 2026-03-15 13:06:52,356 middleware POST /api/auth/login/ - Status: 200 - Duration: 1.00s - User: Anonymous
+INFO 2026-03-15 13:07:20,378 middleware POST /api/blogs/ - Status: 400 - Duration: 0.10s - User: python@visha.com
+WARNING 2026-03-15 13:07:20,378 log Bad Request: /api/blogs/
+INFO 2026-03-15 13:08:27,738 middleware POST /api/blogs/ - Status: 400 - Duration: 0.08s - User: python@visha.com
+WARNING 2026-03-15 13:08:27,738 log Bad Request: /api/blogs/
+ERROR 2026-03-15 13:08:35,436 log Internal Server Error: /api/blogs/
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "created_at" of relation "blogs" violates not-null constraint
+DETAIL:  Failing row contains (1, Getting Started with Django REST Framework, Django REST Framework (DRF) is a powerful toolkit for building W..., draft, null, 2026-03-15 07:38:35.053774+00, 2).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\AppData\Roaming\Python\Python311\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\AppData\Roaming\Python\Python311\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\AppData\Roaming\Python\Python311\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\alber\AppData\Roaming\Python\Python311\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\alber\AppData\Roaming\Python\Python311\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\practice\backend\apps\blogs\views.py", line 51, in create
+    blog = serializer.save(author=request.user)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\AppData\Roaming\Python\Python311\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\AppData\Roaming\Python\Python311\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\practice\backend\apps\blogs\models.py", line 33, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "created_at" of relation "blogs" violates not-null constraint
+DETAIL:  Failing row contains (1, Getting Started with Django REST Framework, Django REST Framework (DRF) is a powerful toolkit for building W..., draft, null, 2026-03-15 07:38:35.053774+00, 2).
+
+INFO 2026-03-15 13:08:35,537 middleware POST /api/blogs/ - Status: 500 - Duration: 0.57s - User: python@visha.com
+INFO 2026-03-15 13:11:46,852 autoreload D:\practice\backend\apps\blogs\models.py changed, reloading.
+INFO 2026-03-15 13:11:49,482 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 13:13:45,888 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 13:13:53,423 middleware POST /api/blogs/ - Status: 201 - Duration: 0.13s - User: python@visha.com
+INFO 2026-03-15 13:14:17,480 middleware GET /admin/blogs/blogpost/ - Status: 200 - Duration: 0.28s - User: python@visha.com
+INFO 2026-03-15 13:14:31,085 middleware GET /admin/blogs/blogpost/add/ - Status: 200 - Duration: 0.14s - User: python@visha.com
+INFO 2026-03-15 13:14:31,240 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.08s - User: python@visha.com
+INFO 2026-03-15 13:15:52,198 middleware POST /api/blogs/ - Status: 201 - Duration: 0.14s - User: python@visha.com
+INFO 2026-03-15 13:15:57,946 middleware GET /admin/blogs/blogpost/ - Status: 200 - Duration: 0.11s - User: python@visha.com
+INFO 2026-03-15 13:16:17,000 middleware POST /api/blogs/ - Status: 201 - Duration: 0.13s - User: python@visha.com
+INFO 2026-03-15 13:16:21,186 middleware GET /admin/blogs/blogpost/ - Status: 200 - Duration: 0.08s - User: python@visha.com
+INFO 2026-03-15 13:16:21,361 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.12s - User: python@visha.com
+INFO 2026-03-15 13:16:39,279 middleware POST /api/blogs/ - Status: 201 - Duration: 0.13s - User: python@visha.com
+INFO 2026-03-15 13:16:43,724 middleware GET /admin/blogs/blogpost/ - Status: 200 - Duration: 0.08s - User: python@visha.com
+INFO 2026-03-15 13:16:43,862 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.08s - User: python@visha.com
+INFO 2026-03-15 13:17:20,555 middleware POST /api/blogs/ - Status: 201 - Duration: 0.13s - User: python@visha.com
+INFO 2026-03-15 13:17:41,062 middleware POST /api/blogs/ - Status: 400 - Duration: 0.08s - User: python@visha.com
+WARNING 2026-03-15 13:17:41,062 log Bad Request: /api/blogs/
+INFO 2026-03-15 13:17:48,934 middleware POST /api/blogs/ - Status: 201 - Duration: 0.13s - User: python@visha.com
+INFO 2026-03-15 13:17:52,984 middleware GET /admin/blogs/blogpost/ - Status: 200 - Duration: 0.14s - User: python@visha.com
+INFO 2026-03-15 13:17:53,115 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.07s - User: python@visha.com
+INFO 2026-03-15 13:22:52,218 middleware GET /api/blogs/1/comments - Status: 404 - Duration: 0.03s - User: python@visha.com
+WARNING 2026-03-15 13:22:52,218 log Not Found: /api/blogs/1/comments
+INFO 2026-03-15 13:22:59,778 middleware GET /api/blogs/1/comment - Status: 404 - Duration: 0.01s - User: python@visha.com
+WARNING 2026-03-15 13:22:59,781 log Not Found: /api/blogs/1/comment
+INFO 2026-03-15 13:24:03,979 middleware GET /api/blogs/2/add_comment/ - Status: 401 - Duration: 0.02s - User: Anonymous
+WARNING 2026-03-15 13:24:03,979 log Unauthorized: /api/blogs/2/add_comment/
+INFO 2026-03-15 13:30:13,236 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 13:30:33,526 middleware GET /admin/blogs/blogpost/ - Status: 200 - Duration: 0.22s - User: python@visha.com
+INFO 2026-03-15 13:30:33,665 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.09s - User: python@visha.com
+INFO 2026-03-15 13:30:36,011 middleware GET /admin/blogs/comment/ - Status: 200 - Duration: 0.10s - User: python@visha.com
+INFO 2026-03-15 13:30:36,168 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.08s - User: python@visha.com
+INFO 2026-03-15 13:30:37,667 middleware GET /admin/blogs/comment/add/ - Status: 200 - Duration: 0.20s - User: python@visha.com
+INFO 2026-03-15 13:30:37,834 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.11s - User: python@visha.com
+INFO 2026-03-15 13:31:45,327 middleware POST /admin/blogs/comment/add/ - Status: 302 - Duration: 0.11s - User: python@visha.com
+INFO 2026-03-15 13:31:45,443 middleware GET /admin/blogs/comment/ - Status: 200 - Duration: 0.11s - User: python@visha.com
+INFO 2026-03-15 13:31:45,585 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.08s - User: python@visha.com
+INFO 2026-03-15 13:33:37,837 middleware GET /admin/blogs/blogpost/add/ - Status: 200 - Duration: 0.11s - User: python@visha.com
+INFO 2026-03-15 13:33:37,998 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.10s - User: python@visha.com
+INFO 2026-03-15 13:33:39,512 middleware GET /admin/blogs/comment/add/ - Status: 200 - Duration: 0.09s - User: python@visha.com
+INFO 2026-03-15 13:33:39,647 middleware GET /admin/jsi18n/ - Status: 200 - Duration: 0.08s - User: python@visha.com
+INFO 2026-03-15 13:33:57,144 middleware GET /api/blogs/2/add_comment/1 - Status: 404 - Duration: 0.01s - User: python@visha.com
+WARNING 2026-03-15 13:33:57,144 log Not Found: /api/blogs/2/add_comment/1
+INFO 2026-03-17 01:05:02,572 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 01:05:50,173 middleware GET /api/auth/login/ - Status: 405 - Duration: 0.30s - User: Anonymous
+WARNING 2026-03-17 01:05:50,173 log Method Not Allowed: /api/auth/login/
+INFO 2026-03-17 01:05:51,025 middleware GET /favicon.ico - Status: 404 - Duration: 0.34s - User: python@visha.com
+WARNING 2026-03-17 01:05:51,025 log Not Found: /favicon.ico
+INFO 2026-03-17 01:06:19,432 middleware GET /admin/ - Status: 200 - Duration: 0.40s - User: python@visha.com
+INFO 2026-03-17 01:07:09,796 middleware POST /api/auth/login/ - Status: 401 - Duration: 0.93s - User: Anonymous
+WARNING 2026-03-17 01:07:09,796 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:07:25,630 middleware POST /api/auth/login/ - Status: 401 - Duration: 1.02s - User: Anonymous
+WARNING 2026-03-17 01:07:25,636 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:07:43,300 middleware POST /api/auth/login/ - Status: 401 - Duration: 0.94s - User: Anonymous
+WARNING 2026-03-17 01:07:43,315 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:08:13,635 middleware POST /api/auth/login/ - Status: 401 - Duration: 0.98s - User: Anonymous
+WARNING 2026-03-17 01:08:13,636 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:08:48,275 middleware GET /api/auth/register/ - Status: 405 - Duration: 0.03s - User: Anonymous
+WARNING 2026-03-17 01:08:48,275 log Method Not Allowed: /api/auth/register/
+INFO 2026-03-17 01:08:59,424 middleware POST /api/blogs/ - Status: 401 - Duration: 0.03s - User: Anonymous
+WARNING 2026-03-17 01:08:59,424 log Unauthorized: /api/blogs/
+INFO 2026-03-17 01:09:14,543 middleware POST /api/auth/register/ - Status: 401 - Duration: 0.00s - User: Anonymous
+WARNING 2026-03-17 01:09:14,543 log Unauthorized: /api/auth/register/
+INFO 2026-03-17 01:10:18,890 middleware POST /api/auth/register/ - Status: 401 - Duration: 0.00s - User: Anonymous
+WARNING 2026-03-17 01:10:18,890 log Unauthorized: /api/auth/register/
+INFO 2026-03-17 01:10:37,613 middleware POST /api/auth/register/ - Status: 400 - Duration: 0.13s - User: Anonymous
+WARNING 2026-03-17 01:10:37,613 log Bad Request: /api/auth/register/
+INFO 2026-03-17 01:11:14,164 middleware GET /api/auth/login/ - Status: 405 - Duration: 0.01s - User: Anonymous
+WARNING 2026-03-17 01:11:14,164 log Method Not Allowed: /api/auth/login/
+INFO 2026-03-17 01:11:55,725 middleware POST /api/auth/login/ - Status: 401 - Duration: 0.90s - User: Anonymous
+WARNING 2026-03-17 01:11:55,725 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:12:08,568 middleware POST /api/auth/login/ - Status: 401 - Duration: 0.96s - User: Anonymous
+WARNING 2026-03-17 01:12:08,568 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:12:30,784 middleware GET /api/auth/register/ - Status: 405 - Duration: 0.02s - User: Anonymous
+WARNING 2026-03-17 01:12:30,784 log Method Not Allowed: /api/auth/register/
+INFO 2026-03-17 01:13:22,903 middleware POST /api/auth/register/ - Status: 401 - Duration: 0.00s - User: Anonymous
+WARNING 2026-03-17 01:13:22,903 log Unauthorized: /api/auth/register/
+INFO 2026-03-17 01:13:49,869 middleware POST /api/auth/register/ - Status: 201 - Duration: 1.17s - User: Anonymous
+INFO 2026-03-17 01:16:46,199 middleware GET /api/auth/login/ - Status: 405 - Duration: 0.08s - User: john.doe@example.com
+WARNING 2026-03-17 01:16:46,200 log Method Not Allowed: /api/auth/login/
+INFO 2026-03-17 01:16:56,113 middleware POST /api/auth/login/ - Status: 200 - Duration: 1.20s - User: john.doe@example.com
+INFO 2026-03-17 01:17:32,196 middleware GET /api/auth/login/ - Status: 405 - Duration: 0.09s - User: john.doe@example.com
+WARNING 2026-03-17 01:17:32,196 log Method Not Allowed: /api/auth/login/
+INFO 2026-03-17 01:17:39,719 middleware POST /api/auth/login/ - Status: 400 - Duration: 0.07s - User: john.doe@example.com
+WARNING 2026-03-17 01:17:39,719 log Bad Request: /api/auth/login/
+INFO 2026-03-17 01:17:50,847 middleware POST /api/auth/login/ - Status: 200 - Duration: 1.23s - User: john.doe@example.com
+INFO 2026-03-17 01:20:36,201 middleware POST /api/auth/login/ - Status: 200 - Duration: 4.75s - User: Anonymous
+INFO 2026-03-17 01:25:28,306 middleware POST /api/auth/login/ - Status: 401 - Duration: 1.00s - User: Anonymous
+WARNING 2026-03-17 01:25:28,310 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:26:10,523 middleware POST /api/auth/login/ - Status: 401 - Duration: 0.95s - User: Anonymous
+WARNING 2026-03-17 01:26:10,523 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:26:19,225 middleware POST /api/auth/login/ - Status: 200 - Duration: 0.95s - User: Anonymous
+INFO 2026-03-17 01:26:19,742 middleware GET /api/blogs/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 01:26:19,758 middleware GET /api/blogs/statistics/ - Status: 404 - Duration: 0.14s - User: john.doe@example.com
+WARNING 2026-03-17 01:26:19,758 log Not Found: /api/blogs/statistics/
+INFO 2026-03-17 01:26:34,037 middleware GET /api/blogs/ - Status: 200 - Duration: 0.08s - User: john.doe@example.com
+INFO 2026-03-17 01:38:43,998 autoreload D:\practice\backend\apps\blogs\views.py changed, reloading.
+INFO 2026-03-17 01:38:48,586 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 01:38:57,622 autoreload D:\practice\backend\apps\blogs\models.py changed, reloading.
+INFO 2026-03-17 01:39:00,945 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 01:39:05,282 autoreload D:\practice\backend\apps\blogs\models.py changed, reloading.
+INFO 2026-03-17 01:39:07,740 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 01:40:12,484 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 01:44:12,127 middleware POST /api/auth/login/ - Status: 401 - Duration: 1.17s - User: john.doe@example.com
+WARNING 2026-03-17 01:44:12,170 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:44:28,178 middleware POST /api/auth/login/ - Status: 200 - Duration: 0.99s - User: john.doe@example.com
+INFO 2026-03-17 01:44:28,852 middleware GET /api/blogs/ - Status: 200 - Duration: 0.16s - User: john.doe@example.com
+INFO 2026-03-17 01:44:28,868 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.17s - User: john.doe@example.com
+INFO 2026-03-17 01:45:08,742 middleware POST /api/blogs/ - Status: 201 - Duration: 0.13s - User: john.doe@example.com
+INFO 2026-03-17 01:45:08,883 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
+INFO 2026-03-17 01:48:55,505 middleware POST /api/auth/login/ - Status: 401 - Duration: 0.89s - User: john.doe@example.com
+WARNING 2026-03-17 01:48:55,505 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:49:05,742 middleware POST /api/auth/login/ - Status: 401 - Duration: 1.55s - User: john.doe@example.com
+WARNING 2026-03-17 01:49:05,803 log Unauthorized: /api/auth/login/
+INFO 2026-03-17 01:49:30,231 middleware POST /api/auth/login/ - Status: 200 - Duration: 1.00s - User: john.doe@example.com
+INFO 2026-03-17 01:49:30,732 middleware GET /api/blogs/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
+INFO 2026-03-17 01:49:30,747 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.11s - User: john.doe@example.com
+INFO 2026-03-17 01:52:22,823 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.11s - User: john.doe@example.com
+INFO 2026-03-17 01:52:23,118 middleware POST /api/auth/logout/ - Status: 200 - Duration: 0.17s - User: john.doe@example.com
+INFO 2026-03-17 01:52:52,379 middleware POST /api/auth/login/ - Status: 200 - Duration: 1.05s - User: Anonymous
+INFO 2026-03-17 01:52:52,990 middleware GET /api/blogs/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 01:52:53,006 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.16s - User: john.doe@example.com
+INFO 2026-03-17 01:53:04,871 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.06s - User: john.doe@example.com
+INFO 2026-03-17 01:53:05,105 middleware POST /api/auth/logout/ - Status: 200 - Duration: 0.13s - User: john.doe@example.com
+INFO 2026-03-17 01:56:39,205 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 01:58:57,516 middleware GET /admin/ - Status: 200 - Duration: 0.66s - User: python@visha.com
+INFO 2026-03-17 02:00:23,409 middleware POST /api/auth/login/ - Status: 200 - Duration: 1.04s - User: Anonymous
+INFO 2026-03-17 02:00:24,097 middleware GET /api/blogs/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 02:00:24,117 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.15s - User: john.doe@example.com
+INFO 2026-03-17 02:00:32,122 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 02:00:32,318 middleware POST /api/auth/logout/ - Status: 200 - Duration: 0.11s - User: john.doe@example.com
+INFO 2026-03-17 02:07:03,576 middleware POST /api/auth/login/ - Status: 200 - Duration: 1.25s - User: Anonymous
+INFO 2026-03-17 02:07:04,612 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.28s - User: john.doe@example.com
+INFO 2026-03-17 02:07:04,645 middleware GET /api/blogs/ - Status: 200 - Duration: 0.44s - User: john.doe@example.com
+INFO 2026-03-17 02:07:49,451 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.08s - User: john.doe@example.com
+INFO 2026-03-17 02:07:49,641 middleware POST /api/auth/logout/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
+INFO 2026-03-17 02:13:32,521 middleware POST /api/auth/login/ - Status: 200 - Duration: 0.97s - User: Anonymous
+INFO 2026-03-17 02:13:33,125 middleware GET /api/blogs/ - Status: 200 - Duration: 0.13s - User: john.doe@example.com
+INFO 2026-03-17 02:13:33,138 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 02:13:39,991 middleware POST /api/auth/token/refresh/ - Status: 200 - Duration: 0.13s - User: Anonymous
+INFO 2026-03-17 02:13:40,130 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.07s - User: john.doe@example.com
+INFO 2026-03-17 02:13:40,235 middleware POST /api/auth/logout/ - Status: 400 - Duration: 0.07s - User: john.doe@example.com
+WARNING 2026-03-17 02:13:40,238 log Bad Request: /api/auth/logout/
+INFO 2026-03-17 02:21:08,556 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 02:22:41,100 middleware POST /api/auth/login/ - Status: 200 - Duration: 1.11s - User: Anonymous
+INFO 2026-03-17 02:22:41,662 middleware GET /api/blogs/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 02:22:41,675 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 02:22:51,390 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.06s - User: john.doe@example.com
+INFO 2026-03-17 02:22:52,346 middleware GET /api/blogs/ - Status: 200 - Duration: 0.11s - User: john.doe@example.com
+INFO 2026-03-17 02:22:52,368 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.13s - User: john.doe@example.com
+INFO 2026-03-17 02:28:30,443 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.10s - User: john.doe@example.com
+INFO 2026-03-17 02:28:31,532 middleware GET /api/blogs/ - Status: 200 - Duration: 0.13s - User: john.doe@example.com
+INFO 2026-03-17 02:28:31,631 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.22s - User: john.doe@example.com
+INFO 2026-03-17 02:28:41,214 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 02:28:42,321 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.13s - User: john.doe@example.com
+INFO 2026-03-17 02:28:42,326 middleware GET /api/blogs/ - Status: 200 - Duration: 0.13s - User: john.doe@example.com
+INFO 2026-03-17 02:28:55,079 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 02:28:58,020 middleware GET /api/blogs/ - Status: 200 - Duration: 0.11s - User: john.doe@example.com
+INFO 2026-03-17 02:28:59,833 middleware GET /api/blogs/ - Status: 200 - Duration: 0.08s - User: john.doe@example.com
+INFO 2026-03-17 02:29:06,467 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
+INFO 2026-03-17 02:29:07,597 middleware GET /api/blogs/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 02:29:07,605 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 02:29:16,129 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.08s - User: john.doe@example.com
+INFO 2026-03-17 02:29:17,103 middleware GET /api/blogs/ - Status: 200 - Duration: 0.16s - User: john.doe@example.com
+INFO 2026-03-17 02:29:17,109 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 02:30:05,797 autoreload D:\practice\backend\config\settings.py changed, reloading.
+INFO 2026-03-17 02:30:08,098 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 02:31:02,512 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 02:31:51,831 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
+INFO 2026-03-17 02:31:52,942 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 02:31:52,952 middleware GET /api/blogs/ - Status: 200 - Duration: 0.15s - User: john.doe@example.com
+INFO 2026-03-17 02:34:12,968 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.10s - User: john.doe@example.com
+INFO 2026-03-17 02:34:14,049 middleware GET /api/blogs/ - Status: 200 - Duration: 0.13s - User: john.doe@example.com
+INFO 2026-03-17 02:34:14,070 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.15s - User: john.doe@example.com
+INFO 2026-03-17 02:36:10,331 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.07s - User: john.doe@example.com
+INFO 2026-03-17 02:36:11,480 middleware GET /api/blogs/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 02:36:11,497 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 02:36:35,960 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.07s - User: john.doe@example.com
+INFO 2026-03-17 02:36:36,979 middleware GET /api/blogs/ - Status: 200 - Duration: 0.13s - User: john.doe@example.com
+INFO 2026-03-17 02:36:36,988 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 02:36:55,968 middleware POST /api/blogs/ - Status: 201 - Duration: 0.16s - User: john.doe@example.com
+INFO 2026-03-17 02:36:56,088 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
+INFO 2026-03-17 02:37:08,025 middleware GET /api/blogs/ - Status: 200 - Duration: 0.08s - User: john.doe@example.com
+INFO 2026-03-17 02:37:18,676 middleware GET /api/blogs/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 02:39:23,419 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
+INFO 2026-03-17 02:39:24,385 middleware GET /api/blogs/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
+INFO 2026-03-17 02:39:24,402 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.11s - User: john.doe@example.com
+INFO 2026-03-17 02:42:18,148 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.11s - User: john.doe@example.com
+INFO 2026-03-17 02:42:19,287 middleware GET /api/blogs/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 02:42:19,294 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 02:42:28,739 middleware GET /api/blogs/ - Status: 200 - Duration: 0.10s - User: john.doe@example.com
+INFO 2026-03-17 02:43:34,245 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.07s - User: john.doe@example.com
+INFO 2026-03-17 02:43:35,285 middleware GET /api/blogs/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 02:43:35,303 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.13s - User: john.doe@example.com
+INFO 2026-03-17 12:19:38,009 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-17 12:24:16,046 exception Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+WARNING 2026-03-17 12:24:16,460 log Bad Request: /api/auth/profile/
+ERROR 2026-03-17 12:24:17,291 exception Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+ERROR 2026-03-17 12:24:17,312 exception Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+WARNING 2026-03-17 12:24:17,344 log Bad Request: /api/blogs/
+WARNING 2026-03-17 12:24:17,361 log Bad Request: /api/blogs/statistics/
+ERROR 2026-03-17 12:27:39,181 exception Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+WARNING 2026-03-17 12:27:39,250 log Bad Request: /api/auth/profile/
+ERROR 2026-03-17 12:27:40,058 exception Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+ERROR 2026-03-17 12:27:40,058 exception Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+WARNING 2026-03-17 12:27:40,100 log Bad Request: /api/blogs/
+WARNING 2026-03-17 12:27:40,119 log Bad Request: /api/blogs/statistics/
+ERROR 2026-03-17 12:28:53,456 exception Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+WARNING 2026-03-17 12:28:53,481 log Bad Request: /api/auth/profile/
+ERROR 2026-03-17 12:28:54,311 exception Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+ERROR 2026-03-17 12:28:54,311 exception Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alber\.pyenv\pyenv-win\versions\3.11.7\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.135.222.46:8000'. You may need to add '10.135.222.46' to ALLOWED_HOSTS.
+WARNING 2026-03-17 12:28:54,382 log Bad Request: /api/blogs/
+WARNING 2026-03-17 12:28:54,388 log Bad Request: /api/blogs/statistics/
+INFO 2026-03-17 12:30:10,145 autoreload D:\practice\backend\config\settings.py changed, reloading.
+INFO 2026-03-17 12:30:13,117 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 12:30:20,291 middleware GET /api/auth/profile/ - Status: 401 - Duration: 0.03s - User: Anonymous
+WARNING 2026-03-17 12:30:20,291 log Unauthorized: /api/auth/profile/
+INFO 2026-03-17 12:30:20,609 middleware POST /api/auth/token/refresh/ - Status: 200 - Duration: 0.18s - User: Anonymous
+INFO 2026-03-17 12:30:21,532 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.16s - User: john.doe@example.com
+INFO 2026-03-17 12:30:21,540 middleware GET /api/blogs/ - Status: 200 - Duration: 0.17s - User: john.doe@example.com
+INFO 2026-03-17 12:30:41,174 middleware PUT /api/blogs/9/ - Status: 200 - Duration: 0.19s - User: john.doe@example.com
+INFO 2026-03-17 12:30:41,307 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.10s - User: john.doe@example.com
+INFO 2026-03-17 12:30:48,666 middleware GET /api/blogs/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
+INFO 2026-03-17 12:30:57,970 middleware GET /api/auth/profile/ - Status: 200 - Duration: 0.06s - User: john.doe@example.com
+INFO 2026-03-17 12:30:58,882 middleware GET /api/blogs/ - Status: 200 - Duration: 0.11s - User: john.doe@example.com
+INFO 2026-03-17 12:30:58,898 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 12:31:12,386 middleware PUT /api/blogs/9/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 12:31:12,512 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.08s - User: john.doe@example.com
+INFO 2026-03-17 12:31:22,026 middleware GET /api/blogs/ - Status: 200 - Duration: 0.08s - User: john.doe@example.com
+INFO 2026-03-17 12:31:23,210 middleware GET /api/blogs/ - Status: 200 - Duration: 0.08s - User: john.doe@example.com
+INFO 2026-03-17 12:31:31,314 middleware POST /api/auth/logout/ - Status: 400 - Duration: 0.06s - User: john.doe@example.com
+WARNING 2026-03-17 12:31:31,314 log Bad Request: /api/auth/logout/
+INFO 2026-03-17 12:32:46,874 middleware POST /api/auth/register/ - Status: 201 - Duration: 1.02s - User: Anonymous
+INFO 2026-03-17 12:32:47,249 middleware GET /api/blogs/ - Status: 200 - Duration: 0.11s - User: a@gmail.com
+INFO 2026-03-17 12:32:47,272 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.13s - User: a@gmail.com
+INFO 2026-03-17 12:33:47,929 middleware POST /api/auth/login/ - Status: 200 - Duration: 0.95s - User: a@gmail.com
+INFO 2026-03-17 12:33:48,217 middleware GET /api/blogs/ - Status: 200 - Duration: 0.12s - User: john.doe@example.com
+INFO 2026-03-17 12:33:48,234 middleware GET /api/blogs/statistics/ - Status: 200 - Duration: 0.14s - User: john.doe@example.com
+INFO 2026-03-17 12:33:55,870 middleware GET /api/blogs/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
+INFO 2026-03-17 12:33:57,357 middleware GET /api/blogs/ - Status: 200 - Duration: 0.09s - User: john.doe@example.com
